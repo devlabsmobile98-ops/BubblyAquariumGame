@@ -28,5 +28,5 @@ will pop. Introduce a shark to watch the fish swim away in evasive directions.
 - Mouse click Bottom-Right Icon: Switch from day to night mode (vice-versa)
 
 ## Example Output
+<img width="786" height="491" alt="image" src="https://github.com/user-attachments/assets/905d0f99-ce49-49f7-9efd-96cb3d979e0c" />
 
-...................................
