@@ -1,5 +1,5 @@
 # Virtual Aquarium Game
-Welcome to the bubbly aquarium game built in Processing.
+Welcome to the bubbly aquarium game built in Processing!
 It has multiple features including floating plants, wandering starfish and tail-wagging goldfish
 swimming around the tank.
 
