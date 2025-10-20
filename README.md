@@ -14,6 +14,7 @@ will pop. Introduce a shark to watch the fish swim away in evasive directions.
 - Aquarium setting with movable starfish and plant characters.
 - Predator (shark) introduction to sway the fish.
 - Restart button to shift back to title card scene.
+- Background Instrumentals to match baby-shark UI theme.
 
 ## How to Run
 1. Open `VirtualAquariumFinal.pde` in the Processing IDE.
