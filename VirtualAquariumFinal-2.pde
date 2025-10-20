@@ -11,6 +11,10 @@
  *  - Press ESC while in predator mode to exit predator mode instead of closing.
  */
 
+// -------------------- MUSIC --------------------
+import processing.sound.*;
+SoundFile music;
+
 // -------------------- SCENES --------------------
 enum Scene { INTRO, INSTRUCTIONS, GAME }
 Scene scene = Scene.INTRO;
@@ -68,7 +72,10 @@ void restartGame() {
 void settings(){ size(W, H); smooth(4); }
 
 void setup() {
-  surface.setTitle("Virtual Aquarium — No Audio");
+  music = new SoundFile(this, "baby-shark-122769.mp3");
+  music.play();
+
+  surface.setTitle("Virtual Aquarium");
   tankLayer = createGraphics(W, H);
 
   // UI
@@ -994,3 +1001,4 @@ void drawRestartButton() {
   textSize(14);
   text("Restart", restartX + restartW/2, restartY + restartH/2 + 1);
 }
+
